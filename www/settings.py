@@ -12,6 +12,8 @@ ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
     'apps.users',
+    'apps.arts',
+    # ----------------------
     'router',
     # ----------------------
     'django.contrib.admin',
