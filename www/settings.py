@@ -11,6 +11,7 @@ DEBUG = os.environ.get('DEBUG', True)
 ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
+    'apps.users',
     'router',
     # ----------------------
     'django.contrib.admin',
